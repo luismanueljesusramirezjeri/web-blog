@@ -1,0 +1,159 @@
+/* PAGINA PRINCIPAL */
+body{
+     margin: 0;
+     background-color: #efefef
+}
+
+
+
+/* TITULO # DISEÑO  */
+header{
+    background-color: #364552;
+    color:azure;
+    padding:1rem 1rem;
+    text-align: center;
+    background-image: url("https://img.freepik.com/fotos-premium/desarrollador-negocios-usando-computadora-marco-kanban-interfaz-pantalla-virtual-futurista-lean-pro_737376-2479.jpg?w=2000");
+}
+/* TITULO # FORMATO TEXTO  */
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+/* TEXTO INTERIOR  */
+div{
+    background-color: #efefef;
+    text-align: center;
+    color: black;
+}
+
+
+
+/* BARRA LATERAL # IZQUIERDA DISEÑO */
+#barralateral1{
+    background-color: #364552;
+    float: left;
+    height: 1300px;
+    width: 300px;
+
+    text-align: center;
+}
+/* BARRA LATERAL TEXTO */
+aside a{
+    transition:color 0.3s ease ;
+    color: white;
+    font-size: 30px;
+}
+/* BARRA LATERAL TRANSACCION */
+aside a:hover{
+    color: blue;  
+}
+
+
+/* SE ELIMINAR EL SUBRAYADO DE PYTHON HTML */
+#barralateral1 a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* BARRA LATERAL # DERECHA DISEÑO */
+#barralateral{
+    background-color: #364552;
+    float: right;
+    height: 1300px;
+    width: 400px;
+}
+/* BARRA LATERAL # DERECHA TEXTO  */
+blockquote{
+    color: white;
+}
+
+
+
+
+
+/*1300  500*/
+.conteiner{
+    width: 500px ;
+    margin: auto;
+    float: none;
+}
+
+section article{
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h2 , section article p , section article img{
+    margin: 1rem;
+
+}
+footer {
+    background-color: #364552;
+    padding: 3rem;
+    color:white;
+    text-align: center;
+}
+
+footer a{
+    transition:color 0.3s ease ;
+    color: white;
+    
+
+}
+footer a:hover{
+    color: blue;
+    
+}
+
+
+
+
+
+
+.conteiner1 {
+    width: 800px; /* Ajusta el ancho según tus necesidades */
+    height: 250px; /* Ajusta la altura según tus necesidades */
+    margin: auto;
+    background-color: red;
+ 
+}
+
+
+.post {
+
+    float: left;
+    width: 32%; /* Cada artículo ocupa el 50% del ancho de la sección */
+
+}
+/* Otros estilos según tus necesidades */   
+
+
+
+
+
+.zoom img {
+    width: 32%; /* Ajusta el ancho de la imagen al 80% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Transición suave con bezier */
+    border: 2px solid transparent; /* Borde inicial transparente */
+}
+
+.zoom:hover img {
+    transform: scale(2.2); /* Aplica un efecto de zoom al hacer hover */
+    border: 2px solid #3498db; /* Cambia el borde a un color cuando haces hover */
+}
